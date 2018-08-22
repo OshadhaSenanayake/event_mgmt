@@ -76,7 +76,7 @@ else{
                         echo '<div style="display:inline-block; margin:5px;;height:10px;font-size:10px;" class="label_completed">Paid</div>';
                     }
                     else{
-                        echo '<div style="display:inline-block; margin:5px;;height:10px;font-size:10px;" class="label_pending">Payment Pending</div>';
+                        echo '<div style="display:inline-block; margin:5px;;height:10px;font-size:10px;" class="label_pending">Payment</div>';
                     }
                 ;
                 echo '    <form action ="../server/admin.php" method="POST">

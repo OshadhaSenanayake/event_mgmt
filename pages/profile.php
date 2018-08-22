@@ -16,7 +16,7 @@ $fullname = $_SESSION['fullname'];
 <html>
 <head>
 	<title><?php echo $fullname;?></title>
-	<link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/styles_old.css">
 	<style>
 	.form select {
 		width:300px;

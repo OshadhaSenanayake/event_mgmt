@@ -43,13 +43,13 @@
 </head>
 
 <body>
-	<body background="images/26.jpg">
+	<body background="assets/img/back7.jpg">
 	
 
 <div>
   <form action="../server/auth.php" method="POST">
-  	<h1><center>Register Here</center></h1>
-    <label for="fname">User Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</label>
+  	<div class="reg"><center>Register &nbsp; Here</center></div>
+    <label for="fname"><p>User Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;</label>
     <!-- <button style="float:right"type="submit" name="usercheck">Check Availability</button><br> -->
     <input type="text" id="fname" name="username" placeholder="Select you username"> 
     <label for="lname">Full Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; </label>

@@ -147,7 +147,9 @@ function create_event(){
    
    
    if(!$result2){
-      header("location:../pages/profile.php");
+      // header("location:../pages/profile.php");
+    echo "errr";
+    echo ($query);
       return FALSE;
   }
   else{
